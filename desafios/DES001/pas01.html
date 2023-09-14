@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>viviendo em </h1>
+    <input type="text" name="pais" id="pais" value="verificar" onclick="verificar()"> voce é
+    <div id="res"></div>
+    <script>
+        function analisar() {
+            var n1 = window.document.getElementById('pais')
+            var n2 = window.document.getElementById('res')
+            var res = String(pais.value)
+            if (res == 'brasil') {
+                res.innerHTML = 'voce é brasileiro'
+            } else {
+                innerHTML = 'voce é estrangeiro'
+            }
+        }
+    </script>
+</body>
+</html>
